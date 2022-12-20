@@ -1,1 +1,1 @@
-#### Why reading mad=rkdown when you can visit the<a href="">page.</a>
+#### Why reading markdown when you can visit the <a href="">page.</a>
