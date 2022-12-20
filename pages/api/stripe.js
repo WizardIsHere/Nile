@@ -9,11 +9,11 @@ export default async function handler(req, res) {
       const params = {
         submit_type: "pay",
         mode: "payment",
-        payment_method_tpes: ["card"],
+        payment_method_types: ["card"],
         billing_address_collection: "auto",
         shipping_options: [
-          { shipping_rate: "shr_1M7e55SHWnxNfgoyDtkmtR2s" },
-          { shipping_rate: "shr_1M7e6sSHWnxNfgoyT9ikQzVP" },
+          { shipping_rate: "shr_1MHAVgSHWnxNfgoy6Dxdfjp3 " },
+          { shipping_rate: "shr_1MHAUvSHWnxNfgoypGfopBj5" },
         ],
         line_items: req.body.map((item) => {
           const img = item.image[0].asset._ref;
